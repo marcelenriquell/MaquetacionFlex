@@ -1,0 +1,471 @@
+* {
+    font-family: Monteserrat, Arial, Helvetica, sans-serif;
+}
+.Column1 {
+    width: 704px;
+    height: 682px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.column2 {
+    width: 704px;
+    height: 682px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.img1 {
+    width: 162.35px;
+    height: 81.88px;
+    left: 66px;
+    top: 237.18px;
+    background: url(.png);
+}
+.img2 {
+    width: auto;
+    height: 622.04px;
+    left: calc(50% - 532.15px/2 + 10.55px);
+    top: 0px;
+    background: url(smart-hispanic-schoolgirl-with-backpack-turning-around.png);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.img3 {
+    width: 218.82px;
+    height: 149.65px;
+    left: 101.65px;
+    top: 483px;
+    background: url(.png);
+}
+.img4 {
+    width: 196.24px;
+    height: 183.53px;
+    left: 544px;
+    top: 278.12px;
+    background: url(.png);
+}
+.heroCover {
+    display: flex;
+    align-items: flex-end;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+#none {
+    width: 768px;
+    height: 653.65px;
+    left: -32px;
+    top: 64px;
+    align-items: flex-end;
+}
+section.stats {
+    width: 1440px;
+    height: 264px;
+    left: 0px;
+    top: 777px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0px;
+    gap: 50px;
+    width: 1050px;
+    height: 264px;
+    left: calc(50% - 1050px/2);
+    top: 0px;
+}
+.row1 {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    width: 1049px;
+    height: 104px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.caja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 0px;
+    width: 238px;
+    height: auto;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.caja1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 241px;
+    height: 104px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+h1#num1 {
+    display: flex;
+    justify-content: center;
+    width: 101px;
+    height: 80px;
+    justify-items: center;
+    /* h1 */
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    /* identical to box height, or 138% */
+    text-align: center;
+    letter-spacing: 0.2px;
+    /* primary-color */
+    color: #96BB7C;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+#detail {
+    /* #metrics-title.1 */
+    justify-items: center;
+    width: auto;
+    height: 24px;
+    /* h5 */
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.1px;
+    /* text-color */
+    color: #252B42;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+.caja2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    width: 241px;
+    height: 104px;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.caja3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 240px;
+    height: 104px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+.material-symbols-outlined {
+    left: 27.08%;
+    right: 28.47%;
+    top: 30.56%;
+    bottom: 25%;
+    color: #E74040;
+}
+.layout1 {
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    height: 718px;
+    left: 0px;
+    top: 1041px;
+    background: #FFF2F3;
+}
+.containerLayout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 160px 0px;
+    gap: 80px;
+    width: 1050px;
+    height: 718px;
+    left: calc(50% - 1050px/2);
+    top: 0px;
+}
+#row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 1044px;
+    height: 50px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 691px;
+    height: 50px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.getQlty {
+    height: 50px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    /* identical to box height, or 125% */
+    letter-spacing: 0.2px;
+    /* text-color */
+    color: #252B42;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    width: 1045px;
+    height: 268px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.caja4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 328px;
+    height: 268px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#circle {
+    width: 72px;
+    height: 72px;
+    /* faded-secondary-color-2 */
+    background: #FFF2F3;
+    border-radius: 200px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#featureTittle {
+    width: auto;
+    height: 24px;
+    /* h5 */
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.1px;
+    /* text-color */
+    color: #252B42;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+#gradualInf {
+    width: 253px;
+    height: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+.decoration {
+    /* fixed-width fixed-height sec- */
+    width: 50px;
+    height: 2px;
+    /* danger-color */
+    background: #E74040;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.footRedes {
+    display: flex;
+    width: 1440px;
+    height: 74px;
+    left: calc(50% - 1440px/2);
+    top: 0px;
+    background: #FAFAFA;
+    justify-content: center;
+}
+.footContain {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 25px 0px;
+    width: 1050px;
+    height: 74px;
+    left: calc(50% - 1050px/2);
+    top: 0px;
+}
+.row2 {
+    /* row */
+/* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    gap: 213px;
+    width: 1049px;
+    height: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.textFoot {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 600px;
+    justify-content: center;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+div h5 {
+    /* Made With Love By Figmaland All Right Reserved */
+    align-items: center;
+    width: auto;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.redes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    width: 236px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 1440px;
+    height: 74px;
+    left: 0px;
+    top: 1759px;
+    background: #FAFAFA;
+}
+.fa-facebook {
+    /* facebook */
+    width: 24px;
+    height: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: #96BB7C;
+}
+.fa-instagram {
+    width: 24px;
+    height: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    color: #96BB7C;
+}
+.fa-x-twitter { 
+    /* facebook */
+    width: 24px;
+    height: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: #96BB7C;
+}
+.iconosRed {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 112px;
+    height: 24px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
